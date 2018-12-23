@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Route, withRouter, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import About from './components/about/About';
+import Works from './components/works/Works';
+import Skills from './components/skills/Skills';
+import Contact from './components/contact/Contact';
 
 const Home = (props) => {
     return(
@@ -35,6 +38,9 @@ class App extends Component {
         </Nav>
         <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
+        <Route path='/works' component={Works}/>
+        <Route path='/works' component={Skills}/>
+        <Route path='/works' component={Contact}/>
       </AppContainer>
     );
   }
