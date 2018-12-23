@@ -39,8 +39,8 @@ class App extends Component {
         <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
         <Route path='/works' component={Works}/>
-        <Route path='/works' component={Skills}/>
-        <Route path='/works' component={Contact}/>
+        <Route path='/skills' component={Skills}/>
+        <Route path='/contact' component={Contact}/>
       </AppContainer>
     );
   }
